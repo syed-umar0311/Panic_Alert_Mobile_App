@@ -12,10 +12,13 @@
       "supportsTablet": true
     },
     "android": {
+      "bundler": "metro",
+      "output": "static",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.syedumarzada.app"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +39,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "447af749-0ee8-49a7-9bed-ebcd2a37c799"
+      }
     }
   }
 }
